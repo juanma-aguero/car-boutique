@@ -1,0 +1,88 @@
+<section ng-init="init()">
+    <div id="compare-box" class="well col-md-2 col-xs-12" ng-show="compareCars.length > 0">
+        <div class="btn-group" role="group" aria-label="compare">
+            <button ng-click="compare()" class="btn btn-primary">Compare!</button>
+            <button ng-click="compareClear()" class="btn btn-default">Clear</button>
+        </div>
+        <hr/>
+        <span>{{compareCars.length}} cars selected for comparison</span>
+    </div>
+
+
+    <div class="input-group input-group-lg">
+        <input type="text"  ng-model="searchBrand" class="form-control" placeholder="Search by brand..." ng-keypress="($event.which === 13)?findByBrand():0"/>
+        <span class="input-group-btn">
+            <button class="btn btn-default" ng-click="findByBrand()" type="button">Go!</button>
+        </span>
+    </div><!-- /input-group -->
+    <br/>
+    <hr/>
+    <div class="row" masonry>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 masonry-brick" ng-repeat="car in cars| orderBy:'-name':true" >
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>{{car.name}}</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="img-car">
+                        <a href="#/car/{{car.id}}">
+                            <img src="{{car.image}}" title="{{car.name}}" />
+                        </a>
+                    </div>
+                    <table class="table table-condensed">
+                        <tr>
+                            <td><b>Manufacturer</b></td>
+                            <td>{{car.company}}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Year</b></td>
+                            <td>{{car.year}}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Price</b></td>
+                            <td>{{car.price}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="panel-footer">
+                    <label class="checkbox-inline">
+<!--                        <input type="checkbox" checklist-model="compareCars" checklist-value="car.id" /> Compare-->
+                        <input type="checkbox" ng-checked="compareCars.indexOf(car.id) != -1" ng-click="toggleCheck(car.id)" /> Compare
+
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/ng-template" id="carCompare.html">
+        <div class="modal-header">
+        <h3 class="modal-title">Comparisson</h3>
+        </div>
+        <div class="modal-body">
+
+        <div class="row">
+        <div class="col-lg-4" ng-repeat="car in cars">
+        <div class="panel panel-default">
+        <div class="panel-heading">
+        <h3>{{car.name}}</h3>
+        </div>
+        <div class="panel-body">
+        <img src="{{car.image}}" title="{{car.name}}" class="img-responsive" />
+        <table class="table table-condensed">
+        <tr ng-repeat="property in car.properties">
+        <td><b>{{property.name}}</b></td>
+        <td>{{property.value}}</td>
+        </tr>
+        </table>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        </div>
+        <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">OK</button>
+        </div>
+    </script>
+</section>

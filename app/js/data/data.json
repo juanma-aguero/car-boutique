@@ -1,0 +1,324 @@
+[
+    {
+        "id": 1,
+        "name": "Sporter 23",
+        "company": "Alfa Romeo",
+        "description": "mmmmmmm",
+        "image": "images/cars/luxury-cars1_48.jpg",
+        "year": "1973",
+        "price": "12999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/luxury-cars1_48.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Veyron EB 16.4",
+        "company": "Bugatti",
+        "description": "The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.",
+        "image": "images/cars/car.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cobra 9.10",
+        "company": "Ford",
+        "description": "The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.",
+        "image": "images/cars/Austin_luxury_cars_.png",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Veyron Cabrio",
+        "company": "Bugatti",
+        "description": "The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.",
+        "image": "images/cars/0013729e48090fdb9dc502.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Modenna",
+        "company": "Ferrari",
+        "description": "The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.",
+        "image": "images/cars/19cb84562a5ec7b8c086a663c093bdff.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Aventador",
+        "company": "Lamborghini",
+        "description": "The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.",
+        "image": "images/cars/Fast-Luxury-and-Expensive-Cars-22.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Kiopo",
+        "company": "Pagani",
+        "description": "The Bugatti Veyron EB 16.4 is a mid-engined sports car, designed and developed in Germany by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.",
+        "image": "images/cars/luxary-cars-6.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Gallardo",
+        "company": "Lamborghini",
+        "description": "he Lamborghini Official Website dedicated to owners and lovers of the brand of the Raging Bull: discover the latest Lamborghini's news and iconic cars.",
+        "image": "images/cars/luxary-cars-6.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v8"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "410 km/h"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "One",
+        "company": "Koenigsegg",
+        "description": "Koenigsegg is proud be part of the Goodwood Festival of Speed once again in 2015. The Goodwood Festival of Speed is one of the annual highlights on the ...",
+        "image": "images/cars/2015-Koenigsegg-One1-201-876x535.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3.8 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v12"
+            },
+            {
+                "name": "torque",
+                "value": "49 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "354 km/h"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Glass",
+        "company": "Mercedes Benz",
+        "description": "Koenigsegg is proud be part of the Goodwood Festival of Speed once again in 2015. The Goodwood Festival of Speed is one of the annual highlights on the ...",
+        "image": "images/cars/Mercedes-Benz-and-Google-Glass-Integration.jpg",
+        "year": "2015",
+        "price": "1200999",
+        "currency": "dolar",
+        "gallery": [
+            {
+                "image": "images/cars/car.jpg",
+                "title": "front"
+            }
+        ],
+        "properties": [
+            {
+                "name": "acceleration[0-100km/h]",
+                "value": "3 seconds"
+            },
+            {
+                "name": "engine",
+                "value": "v10"
+            },
+            {
+                "name": "torque",
+                "value": "45 hbm"
+            },
+            {
+                "name": "max speed",
+                "value": "340 km/h"
+            }
+        ]
+    }
+]

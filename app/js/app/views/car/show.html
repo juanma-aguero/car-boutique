@@ -1,0 +1,32 @@
+<section ng-init="init()">
+    <div class="page-header">
+        <h1>{{ car.name}}</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6">
+                            <img src="{{car.image}}" title="{{car.name}}" class="img-responsive" />
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div>
+                                {{car.description}}
+                            </div>
+                            
+                            <h4>Features</h4>
+                            <table class="table table-condensed">
+                                <tr ng-repeat="property in car.properties">
+                                    <td><b>{{property.name}}</b></td>
+                                    <td>{{property.value}}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
