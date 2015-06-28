@@ -16,7 +16,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -50,7 +50,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -84,7 +84,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -134,7 +134,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -168,7 +168,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -202,7 +202,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -236,7 +236,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {
@@ -270,7 +270,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3.8 seconds"
             },
             {
@@ -304,7 +304,7 @@
         ],
         "properties": [
             {
-                "name": "acceleration[0-100km/h]",
+                "name": "0 to 100km/h",
                 "value": "3 seconds"
             },
             {

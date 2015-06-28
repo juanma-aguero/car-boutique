@@ -12,7 +12,9 @@ angular.module('carshowApp').controller('CarCtrl', function ($scope, $routeParam
      */
     $scope.init = function () {
         var id = $routeParams.car_id;
-        $scope.car = carService.findOne(id);
+        carService.findOne(id, function (data) {
+            $scope.car = data;
+        });
     };
 
 });

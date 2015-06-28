@@ -72,7 +72,9 @@ angular.module('carshowApp').controller('MainCtrl', function ($scope, carService
      */
     $scope.findByBrand = function () {
         if ($scope.searchBrand.length > 0) {
-            $scope.cars = carService.findByBrand($scope.searchBrand);
+            carService.findByBrand($scope.searchBrand, function (data) {
+                $scope.cars = data;
+            });
         } else {
             $scope.init();
         }

@@ -17,8 +17,8 @@
     </div><!-- /input-group -->
     <br/>
     <hr/>
-    <div class="row" masonry>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 masonry-brick" ng-repeat="car in cars| orderBy:'-name':true" >
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="car in cars| orderBy:'-name':true" >
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3>{{car.name}}</h3>
@@ -57,32 +57,42 @@
     </div>
     <script type="text/ng-template" id="carCompare.html">
         <div class="modal-header">
-        <h3 class="modal-title">Comparisson</h3>
+            <h3 class="modal-title">Comparisson</h3>
         </div>
         <div class="modal-body">
-
-        <div class="row">
-        <div class="col-lg-4" ng-repeat="car in cars">
-        <div class="panel panel-default">
-        <div class="panel-heading">
-        <h3>{{car.name}}</h3>
-        </div>
-        <div class="panel-body">
-        <img src="{{car.image}}" title="{{car.name}}" class="img-responsive" />
-        <table class="table table-condensed">
-        <tr ng-repeat="property in car.properties">
-        <td><b>{{property.name}}</b></td>
-        <td>{{property.value}}</td>
-        </tr>
-        </table>
-        </div>
-        </div>
-        </div>
-
-        </div>
+            <div class="row">
+                <div class="col-lg-4" ng-repeat="car in cars">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>{{car.name}}</h3>
+                        </div>
+                        <div class="panel-body">
+                            <img src="{{car.image}}" title="{{car.name}}" class="img-responsive" />
+                            <table class="table table-condensed">
+                                <tr>
+                                    <td><b>Manufacturer</b></td>
+                                    <td>{{car.company}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Year</b></td>
+                                    <td>{{car.year}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Price</b></td>
+                                    <td>{{car.price}}</td>
+                                </tr>
+                                <tr ng-repeat="property in car.properties">
+                                    <td><b>{{property.name}}</b></td>
+                                    <td>{{property.value}}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="modal-footer">
-        <button class="btn btn-primary" ng-click="ok()">OK</button>
+            <button class="btn btn-primary" ng-click="ok()">OK</button>
         </div>
     </script>
 </section>

@@ -4,7 +4,7 @@
  * 
  * @author Juan Manuel Aguero <juanma.aguero@gmail.com>
  */
-angular.module('carshowApp', ['ngRoute', 'checklist-model','ui.bootstrap', 'wu.masonry']).config(function ($routeProvider) {
+angular.module('carshowApp', ['ngRoute', 'ui.bootstrap']).config(function ($routeProvider) {
     $routeProvider
             .when('/car/:car_id', {
                 templateUrl: 'js/app/views/car/show.html',
